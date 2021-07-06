@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    aws = {
+      source = "Vin_test"
+    }
+  }
+}
+
 provider "aws" {
   region = var.region
 }
